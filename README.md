@@ -19,7 +19,7 @@ Ohne Internet startet der Launcher die zuletzt installierte Version.
 - Alle Versionen mit Neuigkeiten findest du unter [Releases](https://github.com/dasdimo/riftwake-releases/releases). Dort liegen auch die Spieldateien selbst (`Riftwake-v….exe`), falls du ohne Launcher spielen willst.
 - Sagt der Launcher „Neuer Launcher verfügbar“, lade ihn einfach über den Knopf neu herunter und ersetze die alte Datei.
 - Probleme? Schicke die Datei `launcher.log` aus `%LOCALAPPDATA%\Riftwake` an den Entwickler.
-- **Deinstallieren:** den Ordner `%LOCALAPPDATA%\Riftwake` und die Launcher-Datei löschen. Deine Einstellungen liegen in `%APPDATA%\Godot\app_userdata\Riftwake`.
+- **Deinstallieren:** im Launcher auf **„Deinstallieren“** klicken. Er fragt nach und löscht alle installierten Versionen; mit dem Schalter „Auch meine Einstellungen löschen“ auch deine Einstellungen (`%APPDATA%\Godot\app_userdata\Riftwake`). Danach kannst du die Launcher-Datei einfach löschen.
 
 ---
 
@@ -43,4 +43,4 @@ Without internet the launcher starts the last installed version.
 - Every version with its news is listed under [Releases](https://github.com/dasdimo/riftwake-releases/releases). The game files themselves (`Riftwake-v….exe`) are there too, if you want to play without the launcher.
 - If the launcher says "New launcher available", download it again with the button and replace the old file.
 - Problems? Send the file `launcher.log` from `%LOCALAPPDATA%\Riftwake` to the developer.
-- **Uninstall:** delete the folder `%LOCALAPPDATA%\Riftwake` and the launcher file. Your settings are in `%APPDATA%\Godot\app_userdata\Riftwake`.
+- **Uninstall:** click **"Uninstall"** in the launcher. It asks first and deletes all installed versions; with the switch "Also delete my settings" your settings too (`%APPDATA%\Godot\app_userdata\Riftwake`). After that you can simply delete the launcher file.
