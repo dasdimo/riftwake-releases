@@ -2,45 +2,43 @@
 
 **Deutsch** · [English](#english)
 
-Hier gibt es den **RIFTWAKE-Launcher** und die fertigen Spielversionen. RIFTWAKE ist ein taktischer 5v5-Hero-Shooter, der gerade entsteht. Der Quellcode ist nicht öffentlich.
+RIFTWAKE ist ein taktischer 5v5-Hero-Shooter, der gerade entsteht: Leuchtende Risse reißen durch echte Städte, und du kämpfst auf ihren Dächern. Der Quellcode ist nicht öffentlich – hier liegen nur die fertigen Versionen.
 
-## So installierst du RIFTWAKE
-1. Lade den Launcher herunter:
-   - **Normaler Windows-PC (Intel/AMD):** [RiftwakeLauncher.exe](https://github.com/dasdimo/riftwake-releases/releases/latest/download/RiftwakeLauncher.exe)
-   - **Snapdragon-Laptop (Windows on ARM):** [RiftwakeLauncher-arm64.exe](https://github.com/dasdimo/riftwake-releases/releases/latest/download/RiftwakeLauncher-arm64.exe)
-2. Lege die Datei zum Beispiel auf den Desktop und starte sie mit Doppelklick.
-3. Beim ersten Start warnt Windows vielleicht („Der Computer wurde durch Windows geschützt“). Klicke auf **„Weitere Informationen“** und dann auf **„Trotzdem ausführen“**. Das passiert nur einmal, weil die Datei nicht signiert ist.
-4. Klicke im Launcher auf **Installieren**. Das Spiel landet in `%LOCALAPPDATA%\Riftwake` (keine Admin-Rechte nötig).
-5. Danach startest du RIFTWAKE immer über den Launcher. Gibt es eine neue Version, zeigt er **Aktualisieren** – ein Klick genügt.
+## So bekommst du RIFTWAKE
+RIFTWAKE gibt es über den **DasDimo Launcher** – ein kleines Programm für alle Spiele von DasDimo. Er installiert das Spiel mit einem Klick, holt Updates und startet es.
+1. Öffne **https://github.com/dasdimo/dasdimo-launcher-releases** und lade dort den Installer **`DasDimoLauncher-Setup.exe`** herunter (keine Admin-Rechte nötig).
+2. Starte den Installer. Windows warnt vielleicht („Der Computer wurde durch Windows geschützt“): Klicke auf **„Weitere Informationen“** und dann auf **„Trotzdem ausführen“**. Das passiert nur einmal, weil die Datei nicht signiert ist.
+3. Wähle im Launcher **RIFTWAKE** und klicke auf **Installieren**. Danach startest du das Spiel immer über den Launcher – gibt es eine neue Version, zeigt er **Aktualisieren**.
 
-Ohne Internet startet der Launcher die zuletzt installierte Version.
+Der Launcher erkennt Snapdragon-Laptops (Windows on ARM) selbst und lädt dort die passende Version.
+
+## Du hast noch den alten RIFTWAKE-Launcher?
+Starte ihn einfach. Er zeigt **„Neuer Launcher verfügbar“** – ein Klick auf **„Launcher aktualisieren“** macht ihn zum DasDimo Launcher, deine Installation und Einstellungen bleiben erhalten. Ganz alte Launcher (0.1.0) zeigen stattdessen **„Herunterladen“**: Dann einmal den Installer von oben nehmen.
 
 ## Gut zu wissen
-- Alle Versionen mit Neuigkeiten findest du unter [Releases](https://github.com/dasdimo/riftwake-releases/releases). Dort liegen auch die Spieldateien selbst (`Riftwake-v….exe`), falls du ohne Launcher spielen willst.
-- Sagt der Launcher „Neuer Launcher verfügbar“, lade ihn einfach über den Knopf neu herunter und ersetze die alte Datei.
-- Probleme? Schicke die Datei `launcher.log` aus `%LOCALAPPDATA%\Riftwake` an den Entwickler.
-- **Deinstallieren:** im Launcher auf **„Deinstallieren“** klicken. Er fragt nach und löscht alle installierten Versionen; mit dem Schalter „Auch meine Einstellungen löschen“ auch deine Einstellungen (`%APPDATA%\Godot\app_userdata\Riftwake`). Danach kannst du die Launcher-Datei einfach löschen.
+- Deine Einstellungen liegen in `%APPDATA%\Godot\app_userdata\Riftwake`. Beim Deinstallieren im Launcher kannst du wählen, ob sie mit gelöscht werden.
+- Probleme? Schicke die Datei `launcher.log` aus `%LOCALAPPDATA%\DasDimo-Launcher\Launcher` an DasDimo.
+- Alle Versionen mit ihren Neuigkeiten stehen unter [Releases](https://github.com/dasdimo/riftwake-releases/releases). Installiere sie bitte über den Launcher – er prüft jede Datei.
 
 ---
 
 <a id="english"></a>
 # RIFTWAKE – Downloads (English)
 
-This is where the **RIFTWAKE launcher** and the finished game builds live. RIFTWAKE is a tactical 5v5 hero shooter in development. The source code is not public.
+RIFTWAKE is a tactical 5v5 hero shooter in development: glowing rifts tear through real cities, and you fight on their rooftops. The source code is not public – this page only holds the finished builds.
 
-## How to install RIFTWAKE
-1. Download the launcher:
-   - **Regular Windows PC (Intel/AMD):** [RiftwakeLauncher.exe](https://github.com/dasdimo/riftwake-releases/releases/latest/download/RiftwakeLauncher.exe)
-   - **Snapdragon laptop (Windows on ARM):** [RiftwakeLauncher-arm64.exe](https://github.com/dasdimo/riftwake-releases/releases/latest/download/RiftwakeLauncher-arm64.exe)
-2. Put the file somewhere, for example on your desktop, and double-click it.
-3. On first launch Windows may warn you ("Windows protected your PC"). Click **"More info"**, then **"Run anyway"**. This only happens once because the file is not signed.
-4. Click **Install** in the launcher. The game goes to `%LOCALAPPDATA%\Riftwake` (no admin rights needed).
-5. From then on, start RIFTWAKE through the launcher. When there is a new version it shows **Update** – one click is enough.
+## How to get RIFTWAKE
+RIFTWAKE comes through the **DasDimo Launcher** – a small program for all games by DasDimo. It installs the game with one click, fetches updates and starts it.
+1. Open **https://github.com/dasdimo/dasdimo-launcher-releases** and download the installer **`DasDimoLauncher-Setup.exe`** (no admin rights needed).
+2. Run the installer. Windows may warn you ("Windows protected your PC"): click **"More info"**, then **"Run anyway"**. This only happens once because the file is not signed.
+3. Pick **RIFTWAKE** in the launcher and click **Install**. From then on, start the game through the launcher – when there is a new version it shows **Update**.
 
-Without internet the launcher starts the last installed version.
+The launcher detects Snapdragon laptops (Windows on ARM) by itself and downloads the matching build.
+
+## Still have the old RIFTWAKE launcher?
+Just start it. It shows **"New launcher available"** – one click on **"Update launcher"** turns it into the DasDimo Launcher; your installation and settings stay. Very old launchers (0.1.0) show **"Download"** instead: then take the installer from above once.
 
 ## Good to know
-- Every version with its news is listed under [Releases](https://github.com/dasdimo/riftwake-releases/releases). The game files themselves (`Riftwake-v….exe`) are there too, if you want to play without the launcher.
-- If the launcher says "New launcher available", download it again with the button and replace the old file.
-- Problems? Send the file `launcher.log` from `%LOCALAPPDATA%\Riftwake` to the developer.
-- **Uninstall:** click **"Uninstall"** in the launcher. It asks first and deletes all installed versions; with the switch "Also delete my settings" your settings too (`%APPDATA%\Godot\app_userdata\Riftwake`). After that you can simply delete the launcher file.
+- Your settings live in `%APPDATA%\Godot\app_userdata\Riftwake`. When you uninstall in the launcher you can choose whether they are deleted too.
+- Problems? Send the file `launcher.log` from `%LOCALAPPDATA%\DasDimo-Launcher\Launcher` to DasDimo.
+- Every version with its news is listed under [Releases](https://github.com/dasdimo/riftwake-releases/releases). Please install them through the launcher – it checks every file.
